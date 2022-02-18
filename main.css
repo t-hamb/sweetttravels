@@ -1,0 +1,137 @@
+/*
+	Style sheet for Sweet T Travels index (main page).
+	Name: Teila Hambleton 
+	Date: 02/17/2022 
+	Class: CS125H - Lab 06
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: #CD96CD;
+}
+
+body {
+	width: 1000px;
+	margin: 0 auto;
+	background-image:
+		-webkit-linear-gradient(30deg, #D8BFD8 0%, #D8BFD8 30%, white 50%, #D8BFD8 80%, #D8BFD8 100%); 
+	border: 5px double #7A378B;
+	border-radius: 10px;
+	box-shadow: 5px 5px #BA55D3;
+}
+
+header h1 { 
+	text-align: center;
+	padding: .5em;
+	font-size: 500%;
+	background: -webkit-linear-gradient(#7A378B, #8B008B, #BA55D3);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+header {
+	text-align: center;
+}
+
+header img {
+	text-align: center;
+	display: block;
+	margin: 5px 245px 30px;
+	width: 50%;
+	border: 5px groove #8B008B;
+	border-radius: 10px;
+}
+
+#nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#nav ul li {
+	float: left;
+}	
+
+#nav ul li a:active {
+	color: #D8BFD8;
+}
+
+#nav ul li a {
+	display: block;
+	width: 200px;
+	text-align: center;
+	padding: 1em 0;
+	background-color: #7A378B;
+	color: white;
+	text-decoration: none;
+}
+
+#nav ul li a:hover { 
+	color: #D8BFD8;
+	font-style: italic;
+}
+
+#nav ul li :active {
+	color: #D8BFD8;
+	font-size: 100%;
+}
+
+main p {
+	color: #7A378B; 
+	padding: 1em 2em;
+	font-size: 150%;
+	float: right;
+}
+
+main h3 {
+		text-align: center;
+		color: #7A378B;
+		font-size: 150%
+}
+
+main ol {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	list-style: none;
+}
+
+main ol li {
+	text-align: center;
+	padding: 5px 20px;
+	margin: 5px 400px;
+	color: #7A378B;
+	float: none;
+	font-weight: bold;
+	list-style: decimal;
+}
+
+.family { 
+	font-family: "copperplate", fantasy; 
+}
+
+
+footer {
+	border-top: 3px solid #7A378B;
+	padding: 1em;
+	clear: both;
+}
+footer p { 
+	text-align: center; 
+	color: #7A378B;
+}
+
+footer a {
+	color: #7A378B;
+}
+
+a:hover, a:focus { 
+	color: white; 
+}
+
+#copyright { 
+		font-weight: bold; }
+
